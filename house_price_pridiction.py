@@ -1,6 +1,6 @@
 # Setting up the libraries
 
-# import numpy as np                                               # for handle numerical values
+# import numpy as np                                             # for handle numerical values
 import pandas as pd                                              # for data manipulation or we can say data analysis
 import matplotlib.pyplot as plt                                  # graph
 import seaborn as sb                                             # top of matplotlib and use to provide more visualization
@@ -10,13 +10,8 @@ from sklearn.metrics import mean_squared_error                   # to evaluate t
 from sklearn.datasets import fetch_california_housing            # dataset
 
 
-# Get new data from the user
 
 
-
-
-
-# once we have set our libraries now lets go on to the model
 # Loading dataset
 california=fetch_california_housing()
 data=pd.DataFrame(california.data, columns=california.feature_names)
